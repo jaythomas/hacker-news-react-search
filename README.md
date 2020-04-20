@@ -1,5 +1,7 @@
 # Hacker News React Search
 
+![Build](https://github.com/jaythomas/hacker-news-react-search/workflows/Build/badge.svg)
+![Tests](https://github.com/jaythomas/hacker-news-react-search/workflows/Tests/badge.svg)
 [![License](https://img.shields.io/badge/License-MIT-blue)](https://github.com/jaythomas/hacker-news-react-search/blob/master/LICENSE.md)
 
 - [Setup](#setup)
