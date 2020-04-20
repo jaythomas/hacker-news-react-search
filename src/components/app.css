@@ -1,0 +1,25 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+.App {
+  margin: 0 auto;
+  width: 96%;
+}
+
+.App > h2 {
+  color: #083632;
+}
+
+.results {
+  margin-top: 1em;
+}
+
+.result a {
+  color: #04877b;
+}

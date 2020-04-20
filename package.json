@@ -1,0 +1,45 @@
+{
+  "name": "hacker-news-react-search",
+  "version": "1.0.0",
+  "description": "Example algolia api search of Hacker News using React/Redux",
+  "main": "index.js",
+  "repository": "https://github.com/jaythomas/hacker-news-react-search",
+  "author": "Jay Thomas <jay@gfax.ch>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && webpack-cli --mode production",
+    "start": "webpack-dev-server",
+    "test": "eslint . && jest src"
+  },
+  "dependencies": {
+    "just-debounce": "^1.0.0",
+    "lodash.debounce": "^4.0.8",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "cache-loader": "^4.1.0",
+    "core-js": "^3.6.5",
+    "css-loader": "^3.5.2",
+    "eslint": "^6.8.0",
+    "eslint-loader": "^4.0.0",
+    "eslint-plugin-react": "^7.19.0",
+    "flush-promises": "^1.0.2",
+    "git-rev-sync": "^2.0.0",
+    "html-webpack-plugin": "^4.2.0",
+    "jest": "^25.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "rimraf": "^3.0.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}

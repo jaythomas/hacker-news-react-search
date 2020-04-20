@@ -1,6 +1,6 @@
 # Hacker News React Search
 
-[![License](https://img.shields.io/github/license/jaythomas/hacker-news-react-search.svg)](https://github.com/jaythomas/hacker-news-react-search/blob/master/LICENSE.md)
+[![License](https://img.shields.io/badge/License-MIT-blue)](https://github.com/jaythomas/hacker-news-react-search/blob/master/LICENSE.md)
 
 - [Setup](#setup)
 - [Testing](#testing)
@@ -37,8 +37,8 @@ This will generate a directory called `dist/` which can be deployed to an http s
 
 ## Additional commands
 
-If I missed any commands, you can get a printout of them by running:
+If I missed any commands above, you can get a printout of them by running:
 
 `yarn run`
 
-Or simply running `cat package.json` and checking out the defined scripts.
+Or by simply running `cat package.json` and checking out the defined "scripts".
